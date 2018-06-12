@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="change"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:text="切换皮肤"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="jump"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:text="跳转"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
