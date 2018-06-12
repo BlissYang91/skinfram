@@ -32,7 +32,6 @@ public class MainActivity extends SkinActivity {
     public void jump(View view) {
         Intent intent=new Intent(this,SecondActivity.class);
         startActivity(intent);
-
     }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
